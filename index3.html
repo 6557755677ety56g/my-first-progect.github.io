@@ -1,0 +1,50 @@
+<style>
+.button{
+        margin: 25px;
+        width: 150px;
+        height: 60px;
+        display: inline-block;
+        background: linear-gradient(to top, #BA3909, #4F1D18);
+        background: -webkit-linear-gradient(to top, #BA3909, #4F1D18);
+        background: -moz-linear-gradient(to top, #BA3909, #4F1D18);
+        background: -o-linear-gradient(to top, #BA3909, #4F1D18);
+        background: -ms-linear-gradient(to top, #BA3909, #4F1D18);
+        -webkit-border-radius: 15px;
+        -moz-border-radius:15px;
+        -ms-border-radius:15px;
+        -o-border-radius:15px;
+        border-radius: 15px;
+        border: 3px solid #8C0909;
+        box-shadow: 5px 5px 10px 1px rgba(0,0,0,0.5);
+        text-align: center;
+        font-size: 25px;
+        color: #f8f7f7;
+        line-height: 60px;
+        text-shadow: 0px 1px black;
+        animation: bouncing 0.5s cubic-bezier(.1,.25,.1,1) 0s infinite alternate both;
+        background: lightslategrey;
+        border-radius: 2px;
+        display: inline-block;
+        color: white;
+        cursor: pointer;
+        font-size: 0.75rem;
+        font-weight: 300;
+        letter-spacing: 0.2em;
+        padding: 1em 2em 1.1em;
+        position: relative;
+        text-decoration: none;
+        text-transform: uppercase;
+        vertical-align: top;
+        margin-top: 50px;
+        }
+    @keyframes bouncing{
+        0% {bottom: 0; box-shadow: 0 0 5px rgba(0,0,0,0.5);}
+        100% {bottom: 50px; box-shadow: 0 50px 50px rgba(0,0,0,0.1);}
+    }
+    .button{
+        animation: bouncing 0.5s cubic-bezier(.1,.25,.1,1) 0s infinite alternate both;
+    }
+</style>
+<body>
+    <input type="button" class="button">
+</body>
